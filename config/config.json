@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-ext-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/spExt/SpExtApplicationCustomizer.js",
+          "manifest": "./src/extensions/spExt/SpExtApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {   
+"jquery": {
+  "path": "node_modules/jquery/dist/jquery.min.js",
+  "globalName": "jQuery"
+},
+ "bootstrap": {
+  "path": "node_modules/bootstrap/dist/js/bootstrap.min.js",
+  "globalName": "jQuery"
+}
+  },
+  "localizedResources": {
+    "SpExtApplicationCustomizerStrings": "lib/extensions/spExt/loc/{locale}.js"
+  }
+}

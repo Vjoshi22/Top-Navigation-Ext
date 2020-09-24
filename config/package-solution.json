@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "s-pext-client-side-solution",
+    "id": "904abe51-9fba-49af-bbf2-0f8a3bdcadd4",
+    "version": "1.1.0.0",
+    "includeClientSideAssets": false,
+    "isDomainIsolated": false,
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "4ba54cbf-5603-42d6-937b-2aaf41f03167",
+        "version": "1.1.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "ClientSideInstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/TopNavBar_extension.sppkg"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://yashtechinc9.sharepoint.com/sites/PMO",
+      "customActions": {
+        "bb51b16a-15b7-4e60-b388-e3436f783d95": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "cssurl": "https://yashtechinc9.sharepoint.com/sites/PMO/SiteAssets/Forms/AllItems.aspx?id=%2Fsites%2FPMO%2FSiteAssets%2FCustomCss%2FcustomCssNavBar&parent=%2Fsites%2FPMO%2FSiteAssets%2FCustomCss&p=true&originalPath=aHR0cHM6Ly95YXNodGVjaGluYzkuc2hhcmVwb2ludC5jb20vOnU6L3MvUE1PL0VWV21UMmJxOUlCTW90WHcxSHNtOGk0QnlPLUhBamhNMldieDR5RHpHbklQbFE_cnRpbWU9SzZXZ2pZYi0xMGc",
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "spExt": {
+      "pageUrl": "https://yashtechinc9.sharepoint.com/sites/PMO",
+      "customActions": {
+        "bb51b16a-15b7-4e60-b388-e3436f783d95": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "cssurl": "https://yashtechinc9.sharepoint.com/sites/PMO/SiteAssets/Forms/AllItems.aspx?id=%2Fsites%2FPMO%2FSiteAssets%2FCustomCss%2FcustomCssNavBar&parent=%2Fsites%2FPMO%2FSiteAssets%2FCustomCss&p=true&originalPath=aHR0cHM6Ly95YXNodGVjaGluYzkuc2hhcmVwb2ludC5jb20vOnU6L3MvUE1PL0VWV21UMmJxOUlCTW90WHcxSHNtOGk0QnlPLUhBamhNMldieDR5RHpHbklQbFE_cnRpbWU9SzZXZ2pZYi0xMGc",
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

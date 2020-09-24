@@ -1,0 +1,89 @@
+#UL_mainMenu li.active{
+    background: #a0d9f4;
+    color: #000;
+    cursor: pointer;
+}
+#UL_mainMenu li.active a{
+    color: #000;
+    cursor: pointer;
+}
+#UL_mainMenu li{
+    transition: background 0.3s;
+    transform: skew(20deg);
+    height: 40px !important;
+    margin-right: 10px;
+}
+#SubNavBar a{font-size: 12px;
+    //font-weight: bold;
+    color: #000;
+    float: left;
+    cursor: pointer;
+}
+#UL_subMenu a{
+    display: inline-grid;
+    width: max-content;
+}
+#UL_subMenu i{
+    text-align: center;
+}
+#UL_subMenu li{
+    padding: 10px 20px;
+}
+#UL_subMenu span{
+    font-size: 10pt;
+}
+#spSiteHeader
+{
+  display: none;
+}
+#UL_mainMenu a{
+    color: #000;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    padding: 9px 10px;
+    transform: skew(-20deg);
+    color: #fff;
+    height: 40px !important;
+    //font-weight: 500;
+}
+.navbar{
+    background-color: rgb(60, 83, 153);
+    height: 40px;
+    margin-bottom: 14px;
+}
+#mainMenu{
+    height: 40px;
+}
+#SubNavBar{
+    background-color: #E5E9F1;
+    height: 110px;
+    margin-bottom: 0px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+//top header for the sharepoint site
+.o365sx-navbar {
+    background-color: #3598db !important;
+    background-position: left top !important;
+    background-repeat: repeat !important;
+    background-image: none !important;
+}
+//hide the hub Menu Navigation
+.od-Files-topBar{
+    display: none;
+}
+.od-ItemContent-header{
+    height: 85px !important;
+}
+// #UL_mainMenu .li:hover{
+//     background: #a0d9f4;
+//     color: #000;
+//     cursor: pointer;
+// }
+// .showSubMenu{
+//     display: block !important;
+// }
+// .hideSubMenu{
+//     display: none;
+// }
